@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header>
+    <div ><img src="262082285_337543311118029_2042989010520018665_n.png"></div>
+    <blockquote>
+        Đây là slogan
+    </blockquote>
+</header>
+<fieldset>
+    <legend>Đăng ký thành viên</legend>
+    <span class="error-msg" id="total-msg"></span>
+    <form class="form-group" name="member">
+        <div class="form-group">
+            <label>Họ và tên: </label>
+            <input type="text" name="name" class="form-control normal-input" placeholder="Họ và tên">
+            <span class="error-msg"></span>
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="email" class="form-control normal-input">
+            <span class="error-msg"></span>
+        </div>
+        <div class="form-group">
+            <label>Phone </label>
+            <input type="text" name="phone" class="form-control normal-input" placeholder="Điện thoại">
+            <span class="error-msg"></span>
+        </div>
+        <div class="form-group">
+            <label>Giới tính</label>
+            <label>
+                <input type="radio" name="gender" value="Nam" class="form-control"> Nam
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Nữ" class="form-control"> Nữ
+            </label>
+        </div>
+        <p>Sở thích</p>
+        <div class="form-group">
+            <input type="checkbox" id="sothich1" name="sothich1" value="Thể thao">
+            <label for="sothich1"> Thể thao</label><br>
+            <input type="checkbox" id="sothich2" name="sothich2" value="Phim ảnh">
+            <label for="sothich2"> Phim ảnh</label><br>
+            <input type="checkbox" id="sothich3" name="sothich3" value="Đọc sách">
+            <label for="sothich3"> Đọc sách</label><br>
+            <input type="checkbox" id="sothich4" name="sothich4" value="Âm nhạc">
+            <label for="sothich4"> Âm nhạc</label><br>
+            <input type="checkbox" id="sothich5" name="sothich5" value="Khác">
+            <label for="sothich5"> Khác</label><br><br>
+        </div>
+
+        <div class="form-group>
+            <label for=">Giới thiệu bản thân</label>
+            <textarea  name="introduce" rows="4" cols="50">
+            </textarea>
+        </div>
+        <div class="form-group">
+            <label>&nbsp;</label>
+            <input type="button" name="submit" value="Dang ky" class="form-control" id="btnSubmit">
+            <input type="reset" name="reset" value="Lam lai" class="form-control">
+
+        </div>
+    </form>
+</fieldset>
+<script type="text/javascript" src="js/register.js"></script>
+<footer>
+    <p>Tên: Lê Xuân Bắc</p>
+    <p>Email: Baclxth2108041@fpt.edu.vn</p>
+    <p>Class: T2108A1</p>
+</footer>
+</body>
+</html>
